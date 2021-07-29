@@ -19,7 +19,7 @@ function testaSequencia($arr){
 
 
 
-function sequenciaCrescente($arr, $maximoPulos = 1){
+function sequenciaCrescente($arr){
 	if (sizeof($arr) > 2){
 		for ($i=0; $i < sizeof($arr); $i++) { 
 			$alterado = $arr;
